@@ -7,4 +7,4 @@
 - Then, if succesful, a list of movies with that keyword in it will appear on your screen from what was found from an IMDB movie database (Error message will occur if either no movie was found or if database didn't work).
 - You then can click on any movies "view details" button to display simple information about that specific movie (Again, error message can occur if database has issue retrieving this information).
 # Screencast Code Walkthrough
-Link: 
+Link: https://youtu.be/_B9XOkSxbZE
