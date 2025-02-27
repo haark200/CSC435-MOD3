@@ -1,0 +1,68 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+/* Main content box seperation from movie list */
+.search-container {
+    margin-bottom: 20px;
+}
+
+/* Text box styling */
+input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+/* Movie List */
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Movie Card */
+.movie-card {
+    width: 250px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Loading Indicator */
+.loading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Error Message */
+.error {
+    color: red;
+}

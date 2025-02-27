@@ -1,0 +1,27 @@
+<!-- 
+    Keagan Haar
+    Assignment 3
+    2/10/25
+    Movie database accessory, search through IMDB movies
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="search-container">
+        <h2>Movie Dashboard</h2>
+        <input type="text" id="movie-search" placeholder="Search for a movie...">
+        <button id="search-btn">Search</button>
+    </div>
+    <div id="loading" class="loading" style="display: none;">Loading...</div>
+    <div id="error" class="error" style="display: none;"></div>
+    <div id="movie-list" class="movie-list"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
