@@ -1,13 +1,10 @@
 # CSC435-MOD3
-- Download all 4 files, putting them all onto the same level of a folder (App.js, Utility.js, index.html and styles.css).
+- Download all 3 main files and put all on the same level of a single folder(index.html, styles.css, app.js).
 - Through some means of a live server, run the index HTML file (I personally used VS Code's live server extension).
-- Now with that completed, you should have an up and runnning application through your web browser!
-# Usage Tips
-- Simply enough, just select a conversion from the dropdown menu (selection of 5).
-- Then, enter a value into the above text box and convert using the given button at the bottom of the application box.
-- The background color dropdown menu differs from the others a bit, given you can only use 0-2 for an appropriate response, otherwise an error message will occur:
-0 for White,
-1 for Light Blue,
-2 for Red.
+- Now, the app will be functional, allowing you to use the search bar to find movies.
+# After Succesful Setup
+- Search any keyword of a movie you are interested in and click the "search" button (For instance, if you want an avengers movie, you can just search avengers to find all those movies).
+- Then, if succesful, a list of movies with that keyword in it will appear on your screen from what was found from an IMDB movie database (Error message will occur if either no movie was found or if database didn't work).
+- You then can click on any movies "view details" button to display simple information about that specific movie (Again, error message can occur if database has issue retrieving this information).
 # Screencast Code Walkthrough
-Link: https://www.youtube.com/watch?v=sPDSAmbX-B0
+Link: 
